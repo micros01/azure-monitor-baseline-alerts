@@ -21,43 +21,43 @@
       "value": "Management"
     },
     "enableAMBAConnectivity": {
-      "value": "Yes"
+      "value": "No"
     },
     "enableAMBAIdentity": {
-      "value": "Yes"
+      "value": "No"
     },
     "enableAMBAManagement": {
-      "value": "Yes"
+      "value": "No"
     },
     "enableAMBAServiceHealth": {
-      "value": "Yes"
+      "value": "No"
     },
     "enableAMBANotificationAssets": {
-      "value": "Yes"
+      "value": "No"
     },
     "enableAMBAHybridVM": {
       "value": "Yes"
     },
     "enableAMBAKeyManagement": {
-      "value": "Yes"
+      "value": "No"
     },
     "enableAMBALoadBalancing": {
-      "value": "Yes"
+      "value": "No"
     },
     "enableAMBANetworkChanges": {
-      "value": "Yes"
+      "value": "No"
     },
     "enableAMBARecoveryServices": {
-      "value": "Yes"
+      "value": "No"
     },
     "enableAMBAStorage": {
-      "value": "Yes"
+      "value": "No"
     },
     "enableAMBAVM": {
       "value": "Yes"
     },
     "enableAMBAWeb": {
-      "value": "Yes"
+      "value": "No"
     },
     "telemetryOptOut": {
       "value": "No"
