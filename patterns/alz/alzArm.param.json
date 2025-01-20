@@ -3,7 +3,7 @@
   "contentVersion": "1.0.0.0",
   "parameters": {
     "enterpriseScaleCompanyPrefix": {
-      "value": "vikamba"
+      "value": "Management"
     },
     "platformManagementGroup": {
       "value": "Management"
