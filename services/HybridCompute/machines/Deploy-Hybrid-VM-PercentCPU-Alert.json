@@ -183,7 +183,7 @@
           "displayName": "Evaluation Periods",
           "description": "The number of aggregated lookback points."
         },
-        "defaultValue": "1"
+        "defaultValue": "5"
       },
       "effect": {
         "type": "String",

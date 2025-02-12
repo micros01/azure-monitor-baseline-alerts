@@ -167,7 +167,7 @@
           "displayName": "Threshold",
           "description": "Threshold for the alert"
         },
-        "defaultValue": "30"
+        "defaultValue": "130"
       },
       "failingPeriods": {
         "type": "String",
@@ -175,7 +175,7 @@
           "displayName": "Failing Periods",
           "description": "Number of failing periods before alert is fired"
         },
-        "defaultValue": "1"
+        "defaultValue": "5"
       },
       "evaluationPeriods": {
         "type": "String",
