@@ -3,22 +3,22 @@
   "contentVersion": "1.0.0.0",
   "parameters": {
     "enterpriseScaleCompanyPrefix": {
-      "value": "Management"
+      "value": "vik"
     },
     "platformManagementGroup": {
-      "value": "Management"
+      "value": "vik-platform"
     },
     "IdentityManagementGroup": {
-      "value": "Management"
+      "value": "vik-platform-identity"
     },
     "managementManagementGroup": {
-      "value": "Management"
+      "value": "vik-platform-management"
     },
     "connectivityManagementGroup": {
-      "value": "Management"
+      "value": "vik-platform-connectivity"
     },
     "LandingZoneManagementGroup": {
-      "value": "Management"
+      "value": "vik-landingzones"
     },
     "enableAMBAConnectivity": {
       "value": "No"
@@ -78,7 +78,7 @@
       "value": "rg-amba-monitoring-001"
     },
     "ALZMonitorResourceGroupLocation": {
-      "value": "eastus"
+      "value": "swedencentral"
     },
     "ALZMonitorResourceGroupTags": {
       "value": {
@@ -1312,7 +1312,7 @@
           "value": "true"
         },
         "HybridVMOSDiskReadLatencyThreshold": {
-          "value": "30"
+          "value": "130"
         },
         "HybridVMOSDiskReadLatencyOperator": {
           "value": "GreaterThan"
@@ -1321,10 +1321,10 @@
           "value": "Count"
         },
         "HybridVMOSDiskReadLatencyEvaluationPeriods": {
-          "value": "1"
+          "value": "5"
         },
         "HybridVMOSDiskReadLatencyFailingPeriods": {
-          "value": "1"
+          "value": "5"
         },
         "HybridVMOSDiskReadLatencyComputersToInclude": {
           "value": [
@@ -1356,7 +1356,7 @@
           "value": "true"
         },
         "HybridVMOSDiskWriteLatencyThreshold": {
-          "value": "30"
+          "value": "130"
         },
         "HybridVMOSDiskWriteLatencyOperator": {
           "value": "GreaterThan"
@@ -1365,10 +1365,10 @@
           "value": "Count"
         },
         "HybridVMOSDiskWriteLatencyEvaluationPeriods": {
-          "value": "1"
+          "value": "5"
         },
         "HybridVMOSDiskWriteLatencyFailingPeriods": {
-          "value": "1"
+          "value": "5"
         },
         "HybridVMOSDiskWriteLatencyComputersToInclude": {
           "value": [
@@ -1444,7 +1444,7 @@
           "value": "true"
         },
         "HybridVMPercentCPUThreshold": {
-          "value": "85"
+          "value": "95"
         },
         "HybridVMPercentCPUOperator": {
           "value": "GreaterThan"
@@ -1456,7 +1456,7 @@
           "value": "2"
         },
         "HybridVMPercentCPUFailingPeriods": {
-          "value": "1"
+          "value": "5"
         },
         "HybridVMPercentMemoryWindowSize": {
           "value": "PT15M"
